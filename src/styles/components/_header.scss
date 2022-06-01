@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li{
+    cursor: pointer;
+    margin: 1rem;
+    text-decoration: none;
+    display: inline;
+    padding: $m-size;
+}
+
+.header ul li:hover{
+    background: wheat;
+    transition: 1s;
+}
+
+.is-active{
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+//we need to reset the css pattern from each browser
+
+html{
+    // this sets the rem to a more valid translation to px
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+}
+
+button{
+    font-size: $m-size;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: .6rem;
+}
+
+button:disabled{
+    opacity: .5;
+    cursor: default;
+}
+// 1 rem = 16 px
